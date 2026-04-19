@@ -2,8 +2,13 @@
 
 一个实时聚合全球主流媒体新闻的 Web 应用，支持多国家、多语言新闻浏览与搜索。
 
+![Deploy](https://img.shields.io/badge/Deploy-Vercel-green)
 ![React](https://img.shields.io/badge/React-19-blue)
 ![Vite](https://img.shields.io/badge/Vite-8-purple)
+
+## 在线演示
+
+🌐 **访问地址**: https://global-news-kohl.vercel.app
 ![Express](https://img.shields.io/badge/Express-green)
 
 ## 功能特性
