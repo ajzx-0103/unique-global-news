@@ -1,0 +1,196 @@
+.country-selector {
+  padding: 0;
+  min-height: calc(100vh - 200px);
+}
+
+.layout-container {
+  display: flex;
+  gap: 2rem;
+  min-height: calc(100vh - 200px);
+}
+
+.sidebar {
+  width: 260px;
+  flex-shrink: 0;
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  max-height: calc(100vh - 180px);
+  overflow-y: auto;
+  position: sticky;
+  top: 100px;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.sidebar-title {
+  font-size: 1.25rem;
+  color: #333;
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #667eea;
+}
+
+.sidebar-region {
+  margin-bottom: 1.25rem;
+}
+
+.sidebar-region-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.region-icon {
+  font-size: 1rem;
+}
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.625rem 0.75rem;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: left;
+  width: 100%;
+  color: #444;
+}
+
+.country-item:hover {
+  background: #f0f2ff;
+  color: #667eea;
+}
+
+.country-item.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.country-item .country-flag {
+  font-size: 1.25rem;
+}
+
+.country-item .country-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.main-area {
+  flex: 1;
+  min-width: 0;
+}
+
+.search-section {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  margin: 0 -24px 1.5rem -24px;
+  padding: 2rem;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.search-section .search-bar {
+  max-width: 700px;
+  margin: 0 auto;
+  display: block;
+}
+
+.content-area {
+  padding: 0 0.5rem;
+}
+
+.content-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 3px solid #667eea;
+  display: inline-block;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .layout-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    max-height: none;
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .sidebar-title {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .sidebar-region {
+    margin-bottom: 0;
+  }
+
+  .country-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .country-item {
+    padding: 0.5rem 0.75rem;
+    width: auto;
+  }
+
+  .country-item .country-name {
+    display: none;
+  }
+
+  .search-section {
+    margin: 0 -16px 1rem -16px;
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .news-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .content-title {
+    font-size: 1.25rem;
+  }
+}
