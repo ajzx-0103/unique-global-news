@@ -20,7 +20,7 @@ function App() {
           </div>
         </main>
         <footer className="footer">
-          <p>全球新闻 · 数据来源 BBC/Reuters/CNN</p>
+          <p>全球新闻 · 数据来源 BBC/Reuters</p>
         </footer>
       </div>
     </BrowserRouter>

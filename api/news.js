@@ -10,7 +10,7 @@ const parser = new Parser({
 const FEEDS = [
   { url: 'https://feeds.bbci.co.uk/news/world/rss.xml', name: 'BBC News' },
   { url: 'https://www.aljazeera.com/xml/rss/all.xml', name: 'Al Jazeera' },
-  { url: 'http://rss.cnn.com/rss/edition_world.rss', name: 'CNN' },
+  
   { url: 'https://feeds.bbci.co.uk/zhongwen/simp/rss.xml', name: 'BBC中文' },
   { url: 'https://www.theguardian.com/world/rss', name: 'The Guardian' },
   { url: 'https://www.france24.com/en/rss', name: 'France 24' },

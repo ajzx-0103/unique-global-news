@@ -30,7 +30,7 @@ const COUNTRY_FEEDS = {
     { url: 'https://feeds.npr.org/1001/rss.xml', sourceName: 'NPR News' },
     { url: 'https://news.yahoo.com/rss/', sourceName: 'Yahoo News' },
     { url: 'https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en', sourceName: 'Google News' },
-    { url: 'http://rss.cnn.com/rss/edition.rss', sourceName: 'CNN' }
+    
   ],
   gb: [
     { url: 'https://www.theguardian.com/world/rss', sourceName: 'The Guardian' },
@@ -195,7 +195,7 @@ const COUNTRY_CODE_MAP = {
 const DEFAULT_FEEDS = [
   { url: 'https://feeds.bbci.co.uk/news/world/rss.xml', sourceName: 'BBC World' },
   { url: 'https://www.aljazeera.com/xml/rss/all.xml', sourceName: 'Al Jazeera' },
-  { url: 'http://rss.cnn.com/rss/edition_world.rss', sourceName: 'CNN' }
+  
 ];
 
 function hashCode(str) {

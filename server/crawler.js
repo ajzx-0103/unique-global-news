@@ -84,7 +84,7 @@ const NEWS_SOURCES = {
     { name: 'US News', url: 'https://www.usnews.com/rss/news', type: 'rss', lang: 'en' },
     { name: 'Google News', url: 'https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en', type: 'rss', lang: 'en' },
     { name: 'Newsweek', url: 'https://www.newsweek.com/rss', type: 'rss', lang: 'en' },
-    { name: 'CNN', url: 'http://rss.cnn.com/rss/edition.rss', type: 'rss', lang: 'en' }
+    
   ],
   gb: [
     { name: 'The Guardian', url: 'https://www.theguardian.com/world/rss', type: 'rss', lang: 'en' },
@@ -154,7 +154,7 @@ const NEWS_SOURCES = {
     { name: 'Deutsche Welle English', url: 'https://rss.dw.com/rdf/rss-en-all', type: 'rss', lang: 'en' },
     { name: 'Euronews', url: 'https://feeds.euronews.com/rss', type: 'rss', lang: 'en' },
     { name: 'BBC World', url: 'https://feeds.bbci.co.uk/news/world/rss.xml', type: 'rss', lang: 'en' },
-    { name: 'CNN International', url: 'http://rss.cnn.com/rss/edition_world.rss', type: 'rss', lang: 'en' }
+    
   ],
   sg: [
     { name: 'Channel News Asia', url: 'https://www.channelnewsasia.com/rssfeeds/8395882', type: 'rss', lang: 'en' },

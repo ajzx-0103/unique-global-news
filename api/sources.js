@@ -70,7 +70,7 @@ const NEWS_SOURCES = {
     { name: 'France24 English', url: 'https://www.france24.com/en/rss', lang: 'en' },
     { name: 'Deutsche Welle English', url: 'https://rss.dw.com/rdf/rss-en-all', lang: 'en' },
     { name: 'BBC World', url: 'https://feeds.bbci.co.uk/news/world/rss.xml', lang: 'en' },
-    { name: 'CNN International', url: 'http://rss.cnn.com/rss/edition_world.rss', lang: 'en' }
+    
   ]
 };
 

@@ -15,7 +15,7 @@ const NEWS_SOURCES = {
   us: [
     { name: 'NPR News', url: 'https://feeds.npr.org/1001/rss.xml', lang: 'en' },
     { name: 'Yahoo News', url: 'https://news.yahoo.com/rss/', lang: 'en' },
-    { name: 'CNN', url: 'http://rss.cnn.com/rss/edition.rss', lang: 'en' }
+    
   ],
   gb: [
     { name: 'The Guardian', url: 'https://www.theguardian.com/world/rss', lang: 'en' },
