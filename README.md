@@ -19,6 +19,9 @@
 - 📱 **响应式设计**: 支持桌面端和移动端浏览
 - ⚡ **实时更新**: 自动定时爬取最新新闻
 - 🔒 **反爬机制**: 智能请求间隔，随机 User-Agent，断路器保护
+<img width="2559" height="1599" alt="屏幕截图 2026-05-13 111625" src="https://github.com/user-attachments/assets/ca2541c5-da7f-4bf8-a6cc-f026f0467641" />
+<img width="2558" height="1590" alt="屏幕截图 2026-05-13 111639" src="https://github.com/user-attachments/assets/1d402634-5406-46cc-93c1-14f8004f9be7" />
+<img width="2559" height="1589" alt="屏幕截图 2026-05-13 111651" src="https://github.com/user-attachments/assets/fe817bdb-d679-4337-856d-37db92b39c54" />
 
 ## 技术栈
 
